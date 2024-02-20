@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap')
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;      
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabeçalho {
+     display: flex  ;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     padding: 24px;
+}
+.imagem-do-cabeçalho {
+    height: 72px;
+}
+.menu-do-cabeçalho {
+    display: flex;
+    gap: 32px;
+}
+.botão-do-cabeçalho {
+    font-family: "Sarala", sans-serif;
+    color:#FFF2E7 ;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteúdo {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+.conteúdo-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.escrita-do-conteúdo-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.título-c1 {
+    font-family: "Righteous", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    color:#FFF2E7 ;
+    font-style: normal;
+    
+}
+.subtítulo-c1 {
+    font-family: "Sarala", sans-serif ;
+    font-size: 24px;
+    font-weight: 400 ;
+    color:#FFF2E7;
+}
+.botão {
+    background-color: #ECD6C4;
+    width: 185px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: "Sarala", sans-serif ;
+    font-size: 24px;
+    font-weight: 400 ;
+    color:#2F2325;
+}
+.botão:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+.imagem-c1 {
+    height: 430px;
+
+}
+.c2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 48px;
+
+}
+.título-c2 {
+    border-top: 0.4px solid #FFF2E7 ;
+    padding-top: 48px;
+    color: #FFF2E7;
+    font-family: "Righteous", sans-serif ;
+    font-size: 24px;
+    font-weight: 400 ;
+    margin-bottom: 16px;
+}
+.parágrafo-c2 {
+    font-family: "Sarala", sans-serif ;
+    font-size: 18px;
+    font-weight: 300 ;
+    color: #ECD6C4;
+}
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7 ;
+}
+.imagem-final {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
